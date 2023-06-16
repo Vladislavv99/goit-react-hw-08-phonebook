@@ -33,3 +33,7 @@ ul {
 a {
   text-decoration: none;
 }
+
+.button {
+  background-color: rgb(255, 187, 197);
+}

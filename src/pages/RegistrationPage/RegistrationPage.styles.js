@@ -9,6 +9,15 @@ export const RegistrationForm = styled.form`
   flex-direction: column;
   gap: 15px;
   margin: 0 auto;
+
+  & button {
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+  }
 `;
 
 export const RegistrationFormLabel = styled.label`
@@ -16,4 +25,10 @@ export const RegistrationFormLabel = styled.label`
   display: flex;
   flex-direction: column;
   gap: 5px;
+
+  & input {
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+  }
 `;

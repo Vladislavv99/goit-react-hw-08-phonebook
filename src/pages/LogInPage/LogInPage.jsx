@@ -23,7 +23,7 @@ function LogInPage() {
 
   return (
     <LogInSection>
-      <h2>Log in page</h2>
+      <h2 style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px'}} >Log in page</h2>
       <LogInForm action="" onSubmit={onFormSubmit}>
         <LogInFormLabel>
           Email
@@ -41,7 +41,7 @@ function LogInPage() {
             onChange={({ target: { value } }) => setPassword(value)}
           />
         </LogInFormLabel>
-        {errorMessage && <p>Incorrect email or password</p>}
+        {errorMessage && <p style={{color:'red'}}>Incorrect email or password</p>}
         <button>Log in</button>
       </LogInForm>
     </LogInSection>

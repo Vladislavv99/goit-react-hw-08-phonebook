@@ -55,7 +55,7 @@ export function ContactForm() {
   return (
     <FormStyles onSubmit={onSubmitForm}>
       <FormLabel>
-        Name
+         <p>Name</p>
         <Input
           type="text"
           name="name"
@@ -66,7 +66,7 @@ export function ContactForm() {
         />
       </FormLabel>
       <FormLabel>
-        Number
+        <p>Number</p>
         <Input
           type="tel"
           name="number"

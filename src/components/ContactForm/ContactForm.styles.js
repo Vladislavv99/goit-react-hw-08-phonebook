@@ -3,9 +3,7 @@ import styled from 'styled-components';
 export const FormStyles = styled.form`
   display: flex;
   flex-direction: column;
-
   align-items: center;
-  background-color: #1e1823;
   color: white;
   gap: 20px;
 
@@ -19,33 +17,34 @@ export const FormLabel = styled.label`
   display: flex;
   width: 100%;
   justify-content: flex-end;
+
+  & p {
+    color: black;
+  }
 `;
 
 export const ErrorMessage = styled.p`
-  color: #fd9222;
+  color: red;
 `;
 
 export const ContactButton = styled.button`
-  width: 120px;
-  padding: 5px 10px;
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 25px;
-  color: white;
-  outline: none;
-  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 
   &:hover {
-    background-color: #fd9222;
-    border-color: #fd9222;
+    border-color: rgb(58, 54, 54);
+    background-color: rgb(58, 54, 54);
+    color: whitesmoke;
   }
 `;
 
 export const Input = styled.input`
   margin-left: 10px;
-  border: 1px solid #fd9222;
-  border-radius: 25px;
-  padding: 5px 15px;
-  background-color: transparent;
-  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 `;

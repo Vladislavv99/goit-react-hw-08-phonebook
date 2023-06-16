@@ -13,6 +13,6 @@ export const LogNavLink = styled(NavLink)`
   color: #1e1823;
 
   &.active {
-    color: #fd9222;
+    color: rgb(247, 124, 145);
   }
 `;

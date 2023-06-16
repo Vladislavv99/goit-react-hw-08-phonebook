@@ -8,10 +8,7 @@ export const FilterLabel = styled.label`
 `;
 
 export const FilterInput = styled.input`
-  border: 2px solid #fd9222;
+  border-radius: 10px;
   padding: 5px 10px;
-  border-radius: 25px;
-  outline: 0;
-  background-color: #fcf1e0;
-  color: #fd9222;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 `;

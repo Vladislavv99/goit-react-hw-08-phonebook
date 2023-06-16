@@ -9,24 +9,24 @@ export const ContactsListStyle = styled.ul`
 
 export const ContactItem = styled.li`
   padding: 10px 15px;
-  border-radius: 25px;
-  border: 2px solid #fd9222;
-  color: white;
-  background-color: #1e1823;
+  border-radius: 10px;
+  border: 2px solid rgb(58, 54, 54);
+  color: black;
+  background-color: lightcyan;
 `;
 
 export const Delete = styled.button`
-  border: 0;
-  background-color: #fd9222;
-  color: white;
-  cursor: pointer;
-  border-radius: 25px;
-  padding: 5px 10px;
-  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 
   &:hover {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    border-color: red;
+    background-color: rgb(255, 187, 197);
+    color: red;
   }
 `;
 

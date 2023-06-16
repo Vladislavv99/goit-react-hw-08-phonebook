@@ -28,7 +28,7 @@ function RegistrationPage() {
 
   return (
     <RegistrationSection>
-      <h2>Registration page</h2>
+      <h2 style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px'}}>Registration page</h2>
       <RegistrationForm action="" onSubmit={onFormSubmit}>
         <RegistrationFormLabel>
           Name
@@ -57,7 +57,7 @@ function RegistrationPage() {
             onChange={({ target: { value } }) => setPassword(value)}
           />
         </RegistrationFormLabel>
-        {errorMessage && <p>This user already exist</p>}
+        {errorMessage && <p style={{color:'red'}}>This user already exist</p>}
         <button>Registration</button>
       </RegistrationForm>
     </RegistrationSection>
