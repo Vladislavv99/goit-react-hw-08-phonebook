@@ -17,6 +17,12 @@ export const LogInForm = styled.form`
     padding-right: 10px;
     padding-left: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      border-color: rgb(58, 54, 54);
+      background-color: rgb(58, 54, 54);
+      color: whitesmoke;
+    }
   }
 `;
 

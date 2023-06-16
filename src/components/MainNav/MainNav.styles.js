@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const MainNavList = styled.ul`
   width: 250px;
   display: flex;
-  gap: 10px;
+  gap: 50px;
   margin-left: 0;
 `;
 
