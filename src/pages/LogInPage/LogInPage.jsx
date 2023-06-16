@@ -23,7 +23,7 @@ function LogInPage() {
 
   return (
     <LogInSection>
-      <h2 style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px'}} >Log in page</h2>
+      <h2 style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px'}} >Log in please</h2>
       <LogInForm action="" onSubmit={onFormSubmit}>
         <LogInFormLabel>
           Email

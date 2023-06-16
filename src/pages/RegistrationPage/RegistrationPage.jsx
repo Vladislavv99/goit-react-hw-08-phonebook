@@ -28,7 +28,7 @@ function RegistrationPage() {
 
   return (
     <RegistrationSection>
-      <h2 style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px'}}>Registration page</h2>
+      <h2 style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px'}}>Register please</h2>
       <RegistrationForm action="" onSubmit={onFormSubmit}>
         <RegistrationFormLabel>
           Name
